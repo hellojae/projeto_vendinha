@@ -1,4 +1,13 @@
-function createDividaTemplate({ id, nome, cpf, descricao, valor, situacao }) {
+<!DOCTYPE html>
+    <html lang = "pt-br">
+        <head>
+        <meta charset="UTF-8">
+        </head>
+
+<body>
+    <script>
+            
+            function createDividaTemplate({ id, nome, cpf, descricao, valor, situacao }) {
     return 
      <td>${id}</td>;
      <td>${nome}</td>;
@@ -47,4 +56,6 @@ cliente = ["id","nome","cpf","descricao","valor","situacao"];
           });
         });
       }
-
+     </script>
+    </body>
+</html>
